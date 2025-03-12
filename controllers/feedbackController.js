@@ -1,4 +1,4 @@
-const Feedback = require("../models/Feedback");
+const Feedback = require("../models/Feedback.js");
 
 exports.submitFeedback = async (req, res) => {
   if (req.user.role !== "student")

@@ -2,8 +2,8 @@ const express = require("express");
 const {
   submitFeedback,
   viewFeedback,
-} = require("../controllers/feedbackController");
-const authMiddleware = require("../middleware/authMiddleware");
+} = require("../controllers/feedbackController.js");
+const authMiddleware = require("../middleware/authMiddleware.js");
 
 const router = express.Router();
 
