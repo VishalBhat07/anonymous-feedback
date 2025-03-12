@@ -1,6 +1,6 @@
 # Anonymous Teacher Feedback System API
 
-This is a REST API for an anonymous teacher feedback system designed for educational institutions. It allows students to submit feedback anonymously while ensuring participation is tracked without revealing identities. Teachers can view aggregated feedback.
+This is a REST API for an anonymous teacher feedback system that allows students to submit feedback anonymously while ensuring participation is tracked without revealing identities. Teachers can view aggregated feedback.
 
 ## Features
 
@@ -61,7 +61,13 @@ This is a REST API for an anonymous teacher feedback system designed for educati
     npm start
     ```
 
-    The server will run on `http://localhost:5000` (or the port specified in your `.env` file).
+    * The server will run on `http://localhost:5000` (or the port specified in your `.env` file).
+    * You can also run the project using nodemon (if installed)
+    
+        ```
+        npm install nodemon
+        nodemon index.js
+        ```
 
 ## API Endpoints
 
